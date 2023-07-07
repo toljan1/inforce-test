@@ -28,21 +28,4 @@ function init(key: string, initialData: Product[]) {
   }
 }
 
-// function remove(key: string, id: number) {
-//   if (read(key)) {
-//     const data = read(key);
-
-//     const newData = {};
-
-//     for (const char in data) {
-//       if (typeof(char) === Product) {
-//         if (char.id !== id) {
-//           newData[char.id] = char;
-//         }
-//       }
-//     }
-
-//     init(key, newData);
-//   }
-
 export { read, write, init }
